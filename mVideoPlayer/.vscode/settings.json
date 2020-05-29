@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.includePath": [
+        "/usr/local/include/",
+        "$(folderPath)/ffmpeg/ffmpeg-4.1.5/",
+    ],
+    "files.associations": {
+        "avcodec.h": "c",
+        "sdl.h": "c",
+        "swscale.h": "c"
+    }
+}

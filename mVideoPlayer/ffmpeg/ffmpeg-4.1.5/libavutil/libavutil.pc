@@ -1,0 +1,14 @@
+prefix=/home/rx/dev/mVideoPlayer/ffmpeg/ffmpeg-4.1.5/../libffmpeg_ubuntu_x86_64
+exec_prefix=${prefix}
+libdir=/home/rx/dev/mVideoPlayer/ffmpeg/ffmpeg-4.1.5/../libffmpeg_ubuntu_x86_64/lib
+includedir=/home/rx/dev/mVideoPlayer/ffmpeg/ffmpeg-4.1.5/../libffmpeg_ubuntu_x86_64/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.22.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -pthread -lm
+Libs.private: 
+Cflags: -I${includedir}
